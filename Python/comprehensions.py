@@ -9,7 +9,7 @@
 
 """ List Comprehensions """
 
-''' syntax: [output_exp for var in input_list(Predicate expression)]'''
+''' syntax: [output_exp for var in input_list(Predicate expression)] '''
 
 def squaring_list_of_integers(list):
     output_list = [ i**2 for i in input_list if isinstance(i, int)]
@@ -48,3 +48,15 @@ or
 output_dict = {key:value for {key, value} in input_dict.items() if condition }
 '''
 
+names = ["Rajesh", "Juhi", "Pritam", "Farha"]
+name_length = {l:len(l) for l in names}
+print(name_length)
+
+student_names = ["Sidhu", "Tarun", "Swatantra", "Rupin", "Shubham"]
+student_scores = [90, 75, 80, 85, 70]
+name_score = {key:value for (key, value) in zip(student_names, student_scores)}
+print(name_score)
+
+people = {"Rohan": 21, "Sheetal": 19, "Karan": 18, "Preeti": 22}
+seniors = {key:value for (key, value) in people.items() if value>20}
+print(seniors)
