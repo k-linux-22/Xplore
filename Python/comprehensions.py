@@ -62,6 +62,16 @@ seniors = {key:value for (key, value) in people.items() if value>20}
 print(seniors)
 
 ''' Nested Dictionary Comprehensions '''
-'''syntax: 
+''' syntax: 
 output_data = {outer_k:{inner_k:my_func(inner_v) for inner_k, inner_v in outer_v.items()} for outer_k, outer_v in outer_dict.items()}
 '''
+
+""" Set Comprehension """
+
+''' syntax:
+output_set = {expression(variable) for variable in input_set[predicate][, ...]}
+'''
+
+names = ["Rohan", "Shruti", "Vishal", "Ajay", "Suman"]
+new_names = {v_name for v_name in names if v_name!="Shruti"}
+print(new_names)
