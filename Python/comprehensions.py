@@ -60,3 +60,11 @@ print(name_score)
 people = {"Rohan": 21, "Sheetal": 19, "Karan": 18, "Preeti": 22}
 seniors = {key:value for (key, value) in people.items() if value>20}
 print(seniors)
+
+''' Nested Dictionary Comprehensions '''
+
+'''syntax: 
+
+output_data = {outer_k:{inner_k:my_func(inner_v) for inner_k, inner_v in outer_v.items()} for outer_k, outer_v in outer_dict.items()}
+
+'''
