@@ -47,7 +47,7 @@ def match_email_format(string):
         print(match.group(1))
         print(match.group(2))
     else:
-            print("No match found")
+        print("No match found")
 
 string = "Please contact us at kalilinux@outlook.com"
 match_email_format(string)
