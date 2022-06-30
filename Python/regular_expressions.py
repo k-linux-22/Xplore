@@ -54,6 +54,8 @@ match_email_format(string)
 string = "Please contact us at kali.linux@outlook.com"
 match_email_format(string)
 
+
+
 text = "random string. markhamil123@gmail.com . some random text"
 pattern = re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
 result = pattern.search(text)
