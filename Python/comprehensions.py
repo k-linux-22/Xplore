@@ -66,6 +66,7 @@ print(seniors)
 output_data = {outer_k:{inner_k:my_func(inner_v) for inner_k, inner_v in outer_v.items()} for outer_k, outer_v in outer_dict.items()}
 '''
 
+
 """ Set Comprehension """
 
 ''' syntax:
