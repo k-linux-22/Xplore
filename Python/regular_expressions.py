@@ -55,8 +55,17 @@ string = "Please contact us at kali.linux@outlook.com"
 match_email_format(string)
 
 
-
+''' get an email address from a string '''
 text = "random string. markhamil123@gmail.com . some random text"
 pattern = re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
 result = pattern.search(text)
+print("\n")
+print(result)
+''' but with Search, only the first occurance is taken '''
+
+''' so, to find multiple email addresses, we will have to use Findall '''
+text = "random string. markhamil123@gmail.com . some random text. yourguy@company.net"
+pattern = re.compile("[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
+result = pattern.findall(text)
+print("\n")
 print(result)
