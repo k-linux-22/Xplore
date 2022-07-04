@@ -34,4 +34,8 @@ buffering: if value is (0), no buffering occurs, if value is (1), line buffering
 
 ''' renaming and deleting a file '''
 import os
-os.rename("/home/klinux/Documents/Xplore/Python/new.py", "/home/klinux/Documents/Xplore/Python/new_named.py")
+''' syntax : os.rename("current_file_name", "new_file_name") '''
+# os.rename("/home/klinux/Documents/Xplore/Python/new.py", "/home/klinux/Documents/Xplore/Python/new_named.py")
+
+''' syntax : os.remove("file_name") '''
+os.remove("/home/klinux/Documents/Xplore/Python/new_named.py")
