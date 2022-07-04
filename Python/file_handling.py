@@ -17,3 +17,8 @@ f = open('/home/klinux/Documents/Xplore/Python/new.py', 'r')
 # read() can also be used to extract data or read data from a file
 print(f.read()) 
 
+f = open('/home/klinux/Documents/Xplore/Python/new.py', 'w')
+f.write(" # A new line ")
+''' now, all previous data in the file is replaced by # A new file '''
+f.close()
+''' the close() command terminates all resources in use and frees the system of this particular program '''
