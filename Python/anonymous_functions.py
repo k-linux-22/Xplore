@@ -1,5 +1,5 @@
 """ anonymous functions """
-# line
+
 
 ''' Lambda function '''
 ''' 
