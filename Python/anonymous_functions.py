@@ -1,5 +1,6 @@
 """ anonymous functions """
 
+
 ''' Lambda function '''
 ''' 
 - used to create small functions
@@ -18,6 +19,7 @@ we can use -
 sqr_of_num = lambda x : x**2
 print(sqr_of_num(5))
 print(type(sqr_of_num))
+
 
 ''' Map '''
 '''
@@ -41,4 +43,3 @@ print(
     )
 
 '''
-
