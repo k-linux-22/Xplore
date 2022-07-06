@@ -26,13 +26,13 @@ In OOP, we encapsulate by binding the data and functions that operate on that da
 
 When a class does not allow calling code access to its private data directly, we say that it is well encapsulated.
 
-**2. Abstraction**
+### 2. Abstraction
 
 **Abstraction** is a process where you show only “relevant” data and “hide” unnecessary details of an object from the user. 
 
 Consider your mobile phone, you just need to know what buttons are to be pressed to send a message or make a call, What happens when you press a button, how your messages are sent, how your calls are connected is all abstracted away from the user.
 
-**3. Inheritance**
+### 3. Inheritance
 
 Object-oriented languages that support classes almost always support the notion of **Inheritance**. 
 
@@ -44,7 +44,7 @@ Therefore, if a class inherits from another class, it automatically obtains much
 
 A nice feature of inheritance is that it often leads to good code reuse since a parent class’s functions don’t need to be re-defined in any of its child classes.
 
-**4. Polymorphism**
+### 4. Polymorphism
 
 In OOP, **Polymorphism** allows for the uniform treatment of classes in a hierarchy. 
 
