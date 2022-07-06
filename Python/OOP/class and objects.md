@@ -51,3 +51,33 @@ In OOP, **Polymorphism** allows for the uniform treatment of classes in a hierar
 Therefore, calling code only needs to be written to handle objects from the root of the hierarchy, and any object instantiated by any child class in the hierarchy will be handled in the same way.
 
 In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.
+
+---
+## Basic syntax
+```
+class Classname:
+
+statement 1
+
+........
+
+statement N
+```
+---
+
+Objects can store data using ordinary variables that belong to the object. 
+
+Variables that belong to an object or class are referred to as **fields**. 
+
+Objects can also have functionality by using functions that belong to a class. Such functions are called **methods** of the class.
+
+This terminology is important because it helps us to differentiate between functions and variables which are independent and those which belong to a class or object. 
+
+Collectively, the fields and methods can be referred to as the **attributes** of that class.
+
+Fields are of two types - they can belong to each instance/object of the class or they can belong to the class itself. They are called **instance variables** and **class variables** respectively.
+
+### The self keyword
+
+When we define a class method, a variable is needed to be provided at the beginning of the parameter list. But whenever this method is called, no value is needed to be provided for this parameter. Python provides it by default. This variable is nothing but the object itself which is referred using the self keyword in the method.
+
