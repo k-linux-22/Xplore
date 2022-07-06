@@ -18,7 +18,7 @@ An object is a realized version of a class. It can also be defined as an abstrac
 - Inheritance
 - Polymorphism
 
-**1. Encapsulation**
+### 1. Encapsulation
 
 **Encapsulation** works in OOP by forming a protective barrier around the information contained within a class from the rest of the code. The word “encapsulate” means to enclose something. 
 
