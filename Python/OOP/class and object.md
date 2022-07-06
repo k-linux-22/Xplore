@@ -79,5 +79,34 @@ Fields are of two types - they can belong to each instance/object of the class o
 
 ### The self keyword
 
-When we define a class method, a variable is needed to be provided at the beginning of the parameter list. But whenever this method is called, no value is needed to be provided for this parameter. Python provides it by default. This variable is nothing but the object itself which is referred using the self keyword in the method.
+When we define a class method, a variable is needed to be provided at the beginning of the parameter list. But whenever this method is called, no value is needed to be provided for this parameter. 
 
+Python provides it by default. This variable is nothing but the object itself which is referred using the self keyword in the method.
+
+> Note: The self variable is almost similar to the this pointer in C++ and the this reference in Java or C#.
+
+### Init Method
+
+There are various methods which have special significance in Python classes. The init method is one such method. 
+
+It is used to initialize the object of a class. As soon as an object of a is created or instantiated, the init method is called automatically. 
+
+We need not explicitly call the method.
+
+Its almost similar to a constructor in C++ or Java.
+
+### Class Variables and Object Variables
+
+The variables (or data fields) of a class or an object are nothing but ordinary variables that are bound to the name spaces of the classes and objects. 
+
+This means that these names are valid within the context of these classes and objects only.
+
+There are two types of data fields - **class variables** and **object variables** which are classified depending on whether the class or the object owns the variables respectively.
+
+- **Class variables** are shared - They can be accessed by all instances of that class. 
+
+    There is only one copy of the class variable and when any one object makes a change to a class variable, that change will be seen by all the other instances.
+
+- **Object variables** are owned by each individual object/instance of the class. 
+
+    In this case, each object has its own copy of the field i.e. they are not shared and are not related in any way to the field by the same name in a different instance.
