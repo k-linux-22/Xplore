@@ -32,7 +32,8 @@ When a class does not allow calling code access to its private data directly, we
 
 Consider your mobile phone, you just need to know what buttons are to be pressed to send a message or make a call, What happens when you press a button, how your messages are sent, how your calls are connected is all abstracted away from the user.
 
-### 3. Inheritance
+```
+3. Inheritance
 
 Object-oriented languages that support classes almost always support the notion of **Inheritance**. 
 
@@ -43,6 +44,7 @@ If a class has a parent class, we say it is derived or inherited from the parent
 Therefore, if a class inherits from another class, it automatically obtains much of the same functionality and properties from that class and can be extended to contain separate code and data. 
 
 A nice feature of inheritance is that it often leads to good code reuse since a parent class’s functions don’t need to be re-defined in any of its child classes.
+```
 
 ### 4. Polymorphism
 
